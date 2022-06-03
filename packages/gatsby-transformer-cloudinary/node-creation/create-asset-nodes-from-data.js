@@ -116,6 +116,12 @@ function createCloudinaryAssetNode({
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
   // Tell Gatsby to add `${relationshipName}` to the parent node.
-  const relationshipKey = `${assetDataPath || relationshipName}___NODE`;
-  set(parentNode, relationshipKey, imageNode.id);
+  const relationshipKey = `${assetDataPath || relationshipName}`;
+
+  createNodeField({
+    parentNode,
+    name: relationshipKey,
+    value: imageNode.id,
+  });
+  //set(parentNode, relationshipKey, imageNode.id);
 }
