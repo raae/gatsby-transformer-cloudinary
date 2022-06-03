@@ -4,7 +4,7 @@ const { createImageNode } = require('./create-image-node');
 
 exports.createAssetNodesFromData = ({
   node,
-  actions: { createNode },
+  actions: { createNode, createNodeField },
   createNodeId,
   createContentDigest,
 }) => {
@@ -21,6 +21,7 @@ exports.createAssetNodesFromData = ({
         assetData,
         createContentDigest,
         createNode,
+        createNodeField,
         createNodeId,
         parentNode: node,
         relationshipName,
@@ -91,6 +92,7 @@ function createCloudinaryAssetNode({
   assetDataPath = null,
   createContentDigest,
   createNode,
+  createNodeField,
   createNodeId,
   parentNode,
   relationshipName,
