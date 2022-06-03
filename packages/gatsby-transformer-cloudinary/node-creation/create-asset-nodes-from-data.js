@@ -1,4 +1,4 @@
-const { flatMap, get, set, unset } = require('lodash');
+const { flatMap, get } = require('lodash');
 
 const { createImageNode } = require('./create-image-node');
 
@@ -13,7 +13,6 @@ exports.createAssetNodesFromData = ({
     const assetData = {
       ...get(node, assetDataPath),
     };
-    unset(node, assetDataPath);
     const assetDataPathParts = assetDataPath.split('.');
     const relationshipName = assetDataPathParts[assetDataPathParts.length - 1];
     if (verifyAssetData(assetData)) {
@@ -125,5 +124,4 @@ function createCloudinaryAssetNode({
     name: relationshipKey,
     value: imageNode.id,
   });
-  //set(parentNode, relationshipKey, imageNode.id);
 }

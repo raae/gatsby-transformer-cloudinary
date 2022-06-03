@@ -74,12 +74,8 @@ exports.createRemoteImageNode = async ({
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
   // Tell Gatsby to add `${relationshipName}` to the parent node.
-  // Old Gatsby Way
-  //const relationshipKey = `${relationshipName}___NODE`;
 
   const relationshipKey = `${relationshipName}`;
-  // Old Gatsby Way
-  //parentNode[relationshipKey] = imageNode.id;
 
   createNodeField({
     parentNode,
