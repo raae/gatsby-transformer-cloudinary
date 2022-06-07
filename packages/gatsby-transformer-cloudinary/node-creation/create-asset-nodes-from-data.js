@@ -1,4 +1,4 @@
-const { flatMap, get } = require('lodash');
+const { flatMap, get, set, unset } = require('lodash');
 
 const { createImageNode } = require('./create-image-node');
 
@@ -13,6 +13,7 @@ exports.createAssetNodesFromData = ({
     const assetData = {
       ...get(node, assetDataPath),
     };
+    unset(node, assetDataPath);
     const assetDataPathParts = assetDataPath.split('.');
     const relationshipName = assetDataPathParts[assetDataPathParts.length - 1];
     if (verifyAssetData(assetData)) {
@@ -116,12 +117,20 @@ function createCloudinaryAssetNode({
   // Add the new node to Gatsby’s data layer.
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
+  let relationshipKey = undefined;
   // Tell Gatsby to add `${relationshipName}` to the parent node.
-  const relationshipKey = `${assetDataPath || relationshipName}`;
 
-  createNodeField({
-    parentNode,
-    name: relationshipKey,
-    value: imageNode.id,
-  });
+  const condition = 'Gatsby is version 4.xx';
+  if (condition === 'Gatsby is version 4.xx') {
+    relationshipKey = `${assetDataPath || relationshipName}`;
+
+    createNodeField({
+      parentNode,
+      name: relationshipKey,
+      value: imageNode.id,
+    });
+  } else {
+    set(parentNode, relationshipKey, imageNode.id);
+    const relationshipKey = `${assetDataPath || relationshipName}`;
+  }
 }

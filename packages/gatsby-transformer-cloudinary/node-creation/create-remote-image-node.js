@@ -2,6 +2,7 @@ const path = require('path');
 const { uploadImageToCloudinary } = require('./upload');
 const { createImageNode } = require('./create-image-node');
 const { getPluginOptions } = require('../options');
+const { set } = require('lodash');
 
 exports.createRemoteImageNode = async ({
   url,
@@ -12,6 +13,7 @@ exports.createRemoteImageNode = async ({
   createNode,
   createNodeId,
   reporter,
+  actions: { createNode, createNodeField },
 }) => {
   if (!reporter) {
     throw Error(
@@ -73,14 +75,24 @@ exports.createRemoteImageNode = async ({
   // Add the new node to Gatsby’s data layer.
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
-  // Tell Gatsby to add `${relationshipName}` to the parent node.
+  let relationshipKey = undefined;
+  // if Gatsby version is 4.xx
+  const condition = 'Gatsby 4';
 
-  const relationshipKey = `${relationshipName}`;
+  if (condition === 'Gatsby 4') {
+    console.log('👍');
+    // Tell Gatsby to add `${relationshipName}` to the parent node.
+    relationshipKey = `${relationshipName}`;
+    createNodeField({
+      parentNode,
+      name: relationshipKey,
+      value: imageNode.id,
+    });
+  } else {
+    // Tell Gatsby to add `${relationshipName}` to the parent node.
+    relationshipKey = `${relationshipName}___NODE`;
 
-  createNodeField({
-    parentNode,
-    name: relationshipKey,
-    value: imageNode.id,
-  });
+    parentNode[relationshipKey] = imageNode.id;
+  }
   return imageNode;
 };
