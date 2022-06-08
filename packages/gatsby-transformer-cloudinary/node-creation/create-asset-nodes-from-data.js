@@ -118,19 +118,17 @@ function createCloudinaryAssetNode({
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
   let relationshipKey = undefined;
-  // Tell Gatsby to add `${relationshipName}` to the parent node.
+  // Tell Gatsby to add `${relationshipName}` to the parent node, The Gatsby-4-Way
 
-  const condition = 'Gatsby is version 4.xx';
-  if (condition === 'Gatsby is version 4.xx') {
-    relationshipKey = `${assetDataPath || relationshipName}`;
+  relationshipKey = `${assetDataPath || relationshipName}`;
 
-    createNodeField({
-      parentNode,
-      name: relationshipKey,
-      value: imageNode.id,
-    });
-  } else {
-    set(parentNode, relationshipKey, imageNode.id);
-    const relationshipKey = `${assetDataPath || relationshipName}`;
-  }
+  createNodeField({
+    parentNode,
+    name: relationshipKey,
+    value: imageNode.id,
+  });
+
+  // Tell Gatsby to add `${relationshipName}` to the parent node, The Gatsby-3-Way
+  set(parentNode, relationshipKey, imageNode.id);
+  const relationshipKey = `${assetDataPath || relationshipName}`;
 }

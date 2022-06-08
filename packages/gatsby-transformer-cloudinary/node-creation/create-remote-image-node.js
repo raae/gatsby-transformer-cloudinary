@@ -76,23 +76,19 @@ exports.createRemoteImageNode = async ({
   createNode(imageNode, { name: 'gatsby-transformer-cloudinary' });
 
   let relationshipKey = undefined;
-  // if Gatsby version is 4.xx
-  const condition = 'Gatsby 4';
 
-  if (condition === 'Gatsby 4') {
-    console.log('👍');
-    // Tell Gatsby to add `${relationshipName}` to the parent node.
-    relationshipKey = `${relationshipName}`;
-    createNodeField({
-      parentNode,
-      name: relationshipKey,
-      value: imageNode.id,
-    });
-  } else {
-    // Tell Gatsby to add `${relationshipName}` to the parent node.
-    relationshipKey = `${relationshipName}___NODE`;
+  // Tell Gatsby to add `${relationshipName}` to the parent node, The Gatsby-4-Way
+  relationshipKey = `${relationshipName}`;
+  createNodeField({
+    parentNode,
+    name: relationshipKey,
+    value: imageNode.id,
+  });
 
-    parentNode[relationshipKey] = imageNode.id;
-  }
+  // Tell Gatsby to add `${relationshipName}` to the parent node, The Gatsby-3-Way
+  relationshipKey = `${relationshipName}___NODE`;
+
+  parentNode[relationshipKey] = imageNode.id;
+
   return imageNode;
 };
