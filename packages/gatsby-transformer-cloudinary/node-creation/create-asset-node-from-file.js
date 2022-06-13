@@ -13,8 +13,12 @@ exports.createAssetNodeFromFile = async (gatsbyUtils, pluginOptions) => {
   } = gatsbyUtils;
 
   const { uploadSourceInstanceNames } = pluginOptions || {};
+  const { allowedMediaTypes } = pluginOptions || {};
 
-  if (!ALLOWED_MEDIA_TYPES.includes(node.internal.mediaType)) {
+  if (
+    allowedMediaTypes &&
+    !allowedMediaTypes.includes(node.internal.mediaType)
+  ) {
     return;
   }
 

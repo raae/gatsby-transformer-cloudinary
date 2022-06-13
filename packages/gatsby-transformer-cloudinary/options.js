@@ -9,6 +9,7 @@ const defaultOptions = {
   overwriteExisting: false,
   enableDefaultTransformations: false,
   alwaysUseDefaultBase64: false,
+  mediaTypes: ['image/png', 'image/jpeg', 'image/gif'],
 };
 
 // Assign defaultOptions to options for run time operations
