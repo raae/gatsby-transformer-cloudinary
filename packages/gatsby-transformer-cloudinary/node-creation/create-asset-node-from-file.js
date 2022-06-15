@@ -1,8 +1,6 @@
 const { uploadImageNodeToCloudinary } = require('./upload');
 const { createImageNode } = require('./create-image-node');
 
-const ALLOWED_MEDIA_TYPES = ['image/png', 'image/jpeg', 'image/gif'];
-
 exports.createAssetNodeFromFile = async (gatsbyUtils, pluginOptions) => {
   const {
     node,
@@ -12,9 +10,12 @@ exports.createAssetNodeFromFile = async (gatsbyUtils, pluginOptions) => {
     reporter,
   } = gatsbyUtils;
 
-  const { uploadSourceInstanceNames } = pluginOptions || {};
+  const { uploadSourceInstanceNames, allowedMediaTypes } = pluginOptions || {};
 
-  if (!ALLOWED_MEDIA_TYPES.includes(node.internal.mediaType)) {
+  if (
+    allowedMediaTypes &&
+    !allowedMediaTypes.includes(node.internal.mediaType)
+  ) {
     return;
   }
 

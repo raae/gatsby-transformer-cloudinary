@@ -2,7 +2,6 @@ jest.mock('./upload');
 jest.mock('./create-image-node');
 
 const { createAssetNodeFromFile } = require('./create-asset-node-from-file');
-const { uploadImageNodeToCloudinary } = require('./upload');
 const { createImageNode } = require('./create-image-node');
 
 const gatsbyUtilsMock = {
@@ -40,9 +39,25 @@ describe('createAssetNodeFromFile', () => {
       id: 'node',
       internal: { mediaType: 'image/svg' },
     };
-    await createAssetNodeFromFile({ node, ...gatsbyUtilsMock });
+    await createAssetNodeFromFile(
+      { node, ...gatsbyUtilsMock },
+      { allowedMediaTypes: ['image/svg+xml'] }
+    );
     expect(createImageNode).toHaveBeenCalledTimes(0);
     expect(gatsbyUtilsMock.actions.createParentChildLink).toBeCalledTimes(0);
+  });
+
+  test('does create an image node for non default allowedMediaTypes', async () => {
+    const node = {
+      id: 'node',
+      internal: { mediaType: 'image/svg+xml' },
+    };
+    await createAssetNodeFromFile(
+      { node, ...gatsbyUtilsMock },
+      { allowedMediaTypes: ['image/svg+xml'] }
+    );
+    expect(createImageNode).toHaveBeenCalledTimes(1);
+    expect(gatsbyUtilsMock.actions.createParentChildLink).toBeCalledTimes(1);
   });
 
   test('does not create an image node for invalid sourceInstanceName', async () => {

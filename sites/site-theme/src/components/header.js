@@ -22,6 +22,9 @@ const Header = ({ siteTitle }) => (
       <Link to="/gifs/" activeClassName="active">
         GIFs
       </Link>
+      <Link to="/svgs/" activeClassName="active">
+        SVGs
+      </Link>
       <Link to="/manual/" activeClassName="active">
         Manual
       </Link>
