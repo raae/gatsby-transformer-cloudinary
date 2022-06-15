@@ -10,8 +10,7 @@ exports.createAssetNodeFromFile = async (gatsbyUtils, pluginOptions) => {
     reporter,
   } = gatsbyUtils;
 
-  const { uploadSourceInstanceNames } = pluginOptions || {};
-  const { allowedMediaTypes } = pluginOptions || {};
+  const { uploadSourceInstanceNames, allowedMediaTypes } = pluginOptions || {};
 
   if (
     allowedMediaTypes &&
