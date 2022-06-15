@@ -38,8 +38,8 @@ const SvgTransformed = () => {
 
   return (
     <div className="image-example">
-      <h2>GIFs with transformations!</h2>
-      <Image fluid={data.image.cloudinary.fluid} alt="Jason, victorious." />
+      <h2>SVG with transformations!</h2>
+      <Image fluid={data.image.cloudinary.fluid} alt="Cloudinary logo" />
       <pre>{query}</pre>
     </div>
   );

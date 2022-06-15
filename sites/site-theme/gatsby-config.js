@@ -24,6 +24,12 @@ module.exports = {
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         uploadFolder: 'gatsby-cloudinary',
         uploadSourceInstanceNames: ['images'],
+        allowedMediaTypes: [
+          'image/png',
+          'image/jpeg',
+          'image/gif',
+          'image/svg+xml',
+        ],
       },
     },
   ],

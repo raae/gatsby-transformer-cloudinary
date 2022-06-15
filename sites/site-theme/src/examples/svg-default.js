@@ -32,7 +32,7 @@ const SvgDefault = () => {
 
   return (
     <div className="image-example">
-      <h2>Lazy-loaded animated GIFs!</h2>
+      <h2>SVG Default</h2>
       <Image fluid={data.image.cloudinary.fluid} alt="Cloudinary logo" />
       <pre>{query}</pre>
     </div>
