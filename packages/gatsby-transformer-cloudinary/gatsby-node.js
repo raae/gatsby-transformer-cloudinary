@@ -9,6 +9,24 @@ const {
   createGatsbyImageTypes,
 } = require('./gatsby-image');
 
+exports.pluginOptionsSchema = ({ Joi }) => {
+  return Joi.object({
+    cloudName: Joi.string().required(),
+    apiKey: Joi.string().required(),
+    apiSecret: Joi.string().required(),
+    uploadFolder: Joi.string().required(),
+    uploadSourceInstanceNames: Joi.array().required(),
+    fluidMaxWidth: Joi.integer().required(),
+    fluidMinWidth: Joi.integer().required(),
+    createDerived: Joi.boolean().required(),
+    breakpointsMaxImages: Joi.integer().required(),
+    useCloudinaryBreakpoints: Joi.boolean().required(),
+    overwriteExisting: Joi.boolean().required(),
+    enableDefaultTransformations: Joi.boolean().required(),
+    alwaysUseDefaultBase64: Joi.boolean().required(),
+  });
+};
+
 let coreSupportsOnPluginInit = undefined;
 
 try {
