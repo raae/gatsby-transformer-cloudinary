@@ -11,19 +11,19 @@ const {
 
 exports.pluginOptionsSchema = ({ Joi }) => {
   return Joi.object({
-    cloudName: Joi.string().required(),
-    apiKey: Joi.string().required(),
-    apiSecret: Joi.string().required(),
-    uploadFolder: Joi.string().required(),
-    uploadSourceInstanceNames: Joi.array().required(),
-    fluidMaxWidth: Joi.integer().required(),
-    fluidMinWidth: Joi.integer().required(),
-    createDerived: Joi.boolean().required(),
-    breakpointsMaxImages: Joi.integer().required(),
-    useCloudinaryBreakpoints: Joi.boolean().required(),
-    overwriteExisting: Joi.boolean().required(),
-    enableDefaultTransformations: Joi.boolean().required(),
-    alwaysUseDefaultBase64: Joi.boolean().required(),
+    cloudName: Joi.string(),
+    apiKey: Joi.string(),
+    apiSecret: Joi.string(),
+    uploadFolder: Joi.string(),
+    uploadSourceInstanceNames: Joi.array(),
+    fluidMaxWidth: Joi.integer().default(1000),
+    fluidMinWidth: Joi.integer().default(200),
+    createDerived: Joi.boolean().default(true),
+    breakpointsMaxImages: Joi.integer().default(5),
+    useCloudinaryBreakpoints: Joi.boolean().default(false),
+    overwriteExisting: Joi.boolean().default(false),
+    enableDefaultTransformations: Joi.boolean().default(false),
+    alwaysUseDefaultBase64: Joi.boolean().default(false),
   });
 };
 
