@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const GifDefault = () => {
@@ -9,9 +8,6 @@ const GifDefault = () => {
       image: file(name: { eq: "victory" }) {
         cloudinary: childCloudinaryAsset {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
-          fluid {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -23,9 +19,6 @@ const GifDefault = () => {
       image: file(name: { eq: "victory" }) {
         cloudinary: childCloudinaryAsset {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
-          fluid {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -42,9 +35,6 @@ const GifDefault = () => {
         image={data.image.cloudinary.gatsbyImageData}
         alt="Jason, victorious."
       />
-
-      <h3>gatsby-image</h3>
-      <Image fluid={data.image.cloudinary.fluid} alt="Jason, victorious." />
 
       <h3>Query</h3>
       <pre>{query}</pre>

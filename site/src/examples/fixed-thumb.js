@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const FixedThumb = () => {
@@ -14,9 +13,6 @@ const FixedThumb = () => {
             layout: FIXED
             transformations: ["c_thumb", "g_face"]
           )
-          fixed(width: 225, transformations: ["ar_1:1", "c_thumb", "g_face"]) {
-            ...CloudinaryAssetFixed
-          }
         }
       }
     }
@@ -33,12 +29,6 @@ const FixedThumb = () => {
             layout: FIXED
             transformations: ["c_thumb", "g_face"]
           )
-          fixed(
-            width: 225,
-            transformations: ["ar_1:1", "c_thumb", "g_face"]
-          ) {
-            ...CloudinaryAssetFixed
-          }
         }
       }
     }
@@ -53,12 +43,6 @@ const FixedThumb = () => {
       <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
-        alt="Jason giving finger guns toward the camera."
-      />
-
-      <h3>gatsby-image</h3>
-      <Image
-        fixed={data.image.cloudinary.fixed}
         alt="Jason giving finger guns toward the camera."
       />
 
