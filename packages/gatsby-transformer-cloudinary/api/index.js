@@ -1,3 +1,5 @@
+// delete this file then? Asks Cap'n Ola Vea Jr.
+
 const {
   getFixedImageObject,
   getFluidImageObject,
