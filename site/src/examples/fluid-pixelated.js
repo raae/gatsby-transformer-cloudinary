@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const FluidPixelated = () => {
@@ -9,9 +8,6 @@ const FluidPixelated = () => {
       image: file(name: { eq: "marisa" }) {
         cloudinary: childCloudinaryAsset {
           gatsbyImageData(layout: CONSTRAINED, transformations: ["e_pixelate_faces"])
-          fluid(transformations: ["e_pixelate_faces"]) {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -27,9 +23,6 @@ const FluidPixelated = () => {
             layout: CONSTRAINED
             transformations: ["e_pixelate_faces"]
           )
-          fluid(transformations: ["e_pixelate_faces"]) {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -42,12 +35,6 @@ const FluidPixelated = () => {
       <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
-        alt="Marisa Morby standing in a rose garden."
-      />
-
-      <h3>gatsby-image</h3>
-      <Image
-        fluid={data.image.cloudinary.fluid}
         alt="Marisa Morby standing in a rose garden."
       />
 
