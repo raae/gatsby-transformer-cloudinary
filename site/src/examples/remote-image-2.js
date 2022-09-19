@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const RemoteImage2 = () => {
@@ -15,12 +14,6 @@ const RemoteImage2 = () => {
             placeholder: BLURRED
             transformations: ["c_fill", "e_pixelate_faces"]
           )
-          fluid(
-            maxWidth: 600
-            transformations: ["ar_1", "c_fill", "e_pixelate_faces"]
-          ) {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -38,12 +31,6 @@ const RemoteImage2 = () => {
             placeholder: BLURRED
             transformations: ["c_fill", "e_pixelate_faces"]
           )
-          fluid(
-            maxWidth: 600
-            transformations: ["ar_1", "c_fill", "e_pixelate_faces"]
-          ) {
-            ...CloudinaryAssetFluid
-          }
         }
       }
     }
@@ -60,9 +47,6 @@ const RemoteImage2 = () => {
         image={data.remoteExample.cloudinary.gatsbyImageData}
         alt="Jason, victorious."
       />
-
-      <h3>gatsby-image</h3>
-      <Image fluid={data.remoteExample.cloudinary.fluid} alt="Remote image" />
 
       <h3>Query</h3>
       <pre>{query}</pre>
