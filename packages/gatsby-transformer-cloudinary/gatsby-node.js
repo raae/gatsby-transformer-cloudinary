@@ -39,7 +39,7 @@ if (coreSupportsOnPluginInit === 'stable') {
 
 exports.onPreExtractQueries = async (gatsbyUtils) => {
   // Fragments to be used with gatsby-image
-  await addGatsbyImageFragments(gatsbyUtils);
+  // await addGatsbyImageFragments(gatsbyUtils);
 };
 
 exports.createSchemaCustomization = (gatsbyUtils) => {
