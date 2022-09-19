@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const ExistingData2 = () => {
@@ -15,9 +14,6 @@ const ExistingData2 = () => {
             transformations: ["c_fill"]
             placeholder: BLURRED
           )
-          fixed(height: 300, width: 300, transformations: ["c_fill"]) {
-            ...CloudinaryAssetFixed
-          }
         }
       }
     }
@@ -29,15 +25,12 @@ const ExistingData2 = () => {
       existingData(name: { eq: "Existing data 2" }) {
         cloudinary: exampleImage {
           gatsbyImageData(
-              width: 300
-              height: 300
-              layout: FIXED
-              transformations: ["c_fill"]
-              placeholder: BLURRED
-            )
-          fixed(height: 300, width: 300, transformations: ["c_fill"]) {
-            ...CloudinaryAssetFixed
-          }
+            width: 300
+            height: 300
+            layout: FIXED
+            transformations: ["c_fill"]
+            placeholder: BLURRED
+          )
         }
       }
     }
@@ -67,8 +60,7 @@ const ExistingData2 = () => {
         image={data.existingData.cloudinary.gatsbyImageData}
         alt="sample image"
       />
-      <h3>gatsby-image</h3>
-      <Image fixed={data.existingData.cloudinary.fixed} alt="sample image" />
+
       <h3>Query</h3>
       <pre>{query}</pre>
       <h3>Data</h3>
