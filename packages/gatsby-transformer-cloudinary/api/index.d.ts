@@ -1,3 +1,5 @@
+// Should these be deleted as well?
+
 export function getFixedImageObject(
   args: GetFixedImageObjectArgs
 ): Promise<FixedImageObject>;
