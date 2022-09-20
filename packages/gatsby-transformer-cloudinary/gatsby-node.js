@@ -3,11 +3,7 @@ const {
   createCloudinaryAssetType,
   createCloudinaryAssetNodes,
 } = require('./node-creation');
-// const {
-//   createGatsbyImageResolvers,
-//   addGatsbyImageFragments,
-//   createGatsbyImageTypes,
-// } = require('./gatsby-image');
+
 const { createGatsbyImageDataResolver } = require('./gatsby-plugin-image');
 
 let coreSupportsOnPluginInit = undefined;
