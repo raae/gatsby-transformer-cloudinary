@@ -319,15 +319,6 @@ Go to the [Gatsby Plugin Image Docs](https://www.gatsbyjs.com/docs/reference/bui
 
 Go to the [Gatsby Plugin Image Docs](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-plugin-image/#all-options) for information on `sizes`.
 
-<!--
-Should we not delete "aspect ratios"
-### A note about aspect ratios
-
-You’re able to change the aspect ratio of images by supplying the [aspect ratio parameter](https://cloudinary.com/documentation/image_transformation_reference#aspect_ratio_parameter) in the `transformations` argument.
-
-> **NOTE:** The aspect ratio _must_ be supplied in the `transformations` array. It **will not** be picked up from the `chained` argument.
--->
-
 ## Running Tests
 
 Run the tests once:
