@@ -40,7 +40,6 @@ const GifTransformed = () => {
     <div className="image-example">
       <h2>GIFs with transformations!</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
         alt="Jason, victorious."

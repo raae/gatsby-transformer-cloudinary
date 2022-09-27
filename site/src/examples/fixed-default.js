@@ -31,7 +31,6 @@ const FixedDefault = () => {
     <div className="image-example">
       <h2>A fixed-width image at 300px</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
         alt="Jason giving finger guns toward the camera."

@@ -40,7 +40,6 @@ const FixedThumb = () => {
     <div className="image-example">
       <h2>Create avatars from any image!</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
         alt="Jason giving finger guns toward the camera."

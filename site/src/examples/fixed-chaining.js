@@ -43,7 +43,6 @@ const FixedChaining = () => {
     <div className="image-example">
       <h2>For complex effects, use chaining</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
         alt="Jason giving finger guns toward the camera."

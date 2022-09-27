@@ -55,7 +55,7 @@ const ExistingData2 = () => {
   return (
     <div className="image-example">
       <h2>Example 2</h2>
-      <h3>gatsby-plugin-image</h3>
+
       <GatsbyImage
         image={data.existingData.cloudinary.gatsbyImageData}
         alt="sample image"

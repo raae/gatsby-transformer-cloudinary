@@ -44,7 +44,6 @@ const FluidSilly = () => {
     <div className="image-example">
       <h2>Or you can get plain silly</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.image.cloudinary.gatsbyImageData}
         alt="Marisa Morby standing in a rose garden."

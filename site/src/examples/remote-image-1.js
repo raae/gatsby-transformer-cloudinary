@@ -40,7 +40,6 @@ const RemoteImage1 = () => {
     <div className="image-example">
       <h2>Example 1</h2>
 
-      <h3>gatsby-plugin-image</h3>
       <GatsbyImage
         image={data.remoteExample.cloudinary.gatsbyImageData}
         alt="Jason, victorious."
