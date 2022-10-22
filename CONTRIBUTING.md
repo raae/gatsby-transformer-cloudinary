@@ -7,39 +7,33 @@
 The following are guidelines for contributing to the Cloudinary plugins. These are guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## What can you contribute?
+
 Contribute documentation, help fellow users, report bugs, suggest enhancements, contribute code and contribute to Cloudinary’s blog
 
 ## Why is your contribution so important to us?
+
 We're hoping that Cloudinary plugins will be easy to use. We know we can't do that without the help of users like you, so we'd love to have your contribution even a real small one.
 
 Wy for you: you can connect with people and learn new skills,
 
 ## How to contribute to our Cloudinary plugins?
-intro
+
+intro (more text needed here _ _ _ _)
 
 ## Table Of Contents
 
 Code of Conduct
 
-I don't want to read this whole thing, I just have a question!!!
 
-What should I know before I get started?
-* Cloudinary plugins
+[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
-How Can I Contribute?
--Reporting Bugs
--Suggesting Enhancements
--Your First Code Contribution
--Pull Requests
+[What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
-Styleguides
--Git Commit Messages
--JavaScript Styleguide
--Specs Styleguide (?)
--Documentation Styleguide
+[How Can I Contribute?](#how-can-i-contribute)
 
-Additional Notes
--Issue and Pull Request Labels
+[Styleguides](#styleguides)
+
+[Additional Notes](#additional-notes)
 
 ## Code of Conduct
 
@@ -56,17 +50,20 @@ We have an official message board and a Cloudinary discord where the community c
 
 
 ## What should I know before I get started?
+
 * Cloudinary plugins
 
 
 ## How Can I Contribute?
+
 ### Reporting Bugs 🐛
 
 This section guides you through submitting a bug report for our Cloudinary plugins. Following these guidelines helps maintainers and the community understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎.
 
 When you are creating a bug report, please include as many details as possible.
 
-#### How Do I Submit A Good Bug Report? 🐛 ladybug
+#### How Do I Submit A Good Bug Report? 🐛
+
 Bugs are tracked as [GitHub issues](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues). Create an issue and provide the following information.
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
@@ -76,39 +73,99 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
-* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, record the GIF with the Keybinding Resolver shown. You can use this tool to record GIFs on macOS and Windows, and this tool or this tool on Linux.
-If you're reporting that Atom crashed, include a crash report with a stack trace from the operating system. On macOS, the crash report will be available in Console.app under "Diagnostic and usage information" > "User diagnostic reports". Include the crash report in the issue in a code block, a file attachment, or put it in a gist and provide link to that gist.
-If the problem is related to performance or memory, include a CPU profile capture with your report.
-If Chrome's developer tools pane is shown without you triggering it, that normally means that you have a syntax error in one of your themes or in your styles.less. Try running in Safe Mode and using a different theme or comment out the contents of your styles.less to see if that fixes the problem.
-If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information using the guidelines below.
-Provide more context by answering these questions:
+* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, record the GIF with the Keybinding Resolver shown. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
 
-Can you reproduce the problem in safe mode?
-Did the problem start happening recently (e.g. after updating to a new version of Atom) or was this always a problem?
-If the problem started happening recently, can you reproduce the problem in an older version of Atom? What's the most recent version in which the problem doesn't happen? You can download older versions of Atom from the releases page.
-Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
-If the problem is related to working with files (e.g. opening and editing files), does the problem happen for all files and projects or only some? Does the problem happen only when working with local or remote files (e.g. on network drives), with files of a specific type (e.g. only JavaScript or Python files), with large files or files with very long lines, or with files in a specific encoding? Is there anything else special about the files you are using?
-Include details about your configuration and environment:
-
-Which version of Atom are you using? You can get the exact version by running atom -v in your terminal, or by starting Atom and running the Application: About command from the Command Palette.
-What's the name and version of the OS you're using?
-Are you running Atom in a virtual machine? If so, which VM software are you using and which operating systems and versions are used for the host and the guest?
-Which packages do you have installed? You can get that list by running apm list --installed.
-Are you using local configuration files config.cson, keymap.cson, snippets.cson, styles.less and init.coffee to customize Atom? If so, provide the contents of those files, preferably in a code block or with a link to a gist.
-Are you using Atom with multiple monitors? If so, can you reproduce the problem when you use a single monitor?
-Which keyboard layout are you using? Are you using a US layout or some other layout?
+* **If the problem is related to performance or memory**, include a CPU profile capture with your report.
 
 
 
--Suggesting Enhancements
--Your First Code Contribution
--Pull Requests
+
+### Suggesting Enhancements
+
+This section guides you through submitting an enhancement suggestion for Atom, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion 📝 and find related suggestions 🔎.
+
+* check if you're using the latest version of Cloudinary plugin and if you can get the desired behavior by changing your plugin's config.
+
+### How Do I Submit A Good Enhancement Suggestion?
+
+Enhancement suggestions are tracked as GitHub issues. Create an issue and provide the following information:
+
+* **Use a clear and descriptive title** for the issue to identify the suggestion.
+* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+* **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* **Describe the current behavior and explain which behavior you expected to see instead** and why.
+* **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of Atom which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
+* **Explain why this enhancement would be useful** to most Atom users and isn't something that can or should be implemented as a community package.
+* **List another Gatsby plugin where this enhancement exists.**
+* **Specify which version of our Cloudinary plugin you're using**. You can get the exact version by _ _ _ _ _ _.
+* **Specify the version of Gatsby you're using.**
+
+### Your First Code Contribution
+
+Unsure where to begin contributing to Cloudinary plugin? You can start by looking through these [beginner](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner):
+
+### Local development
+
+Cloudinary plugins can be developed locally.
+more info needed here _ _ _ _
+
+### Pull Requests
+
+The process described here has several goals:
+
+* Maintain Cloudinary plugin's quality
+* Fix problems that are important to users
+* Engage the community in working toward the best possible Cloudinary plugins
+* Enable a sustainable system for Cloudinary plugin's maintainers to review contributions
+* Please follow the styleguides to have your contribution considered by the maintainers:
+
 
 ## Styleguides
--Git Commit Messages
--JavaScript Styleguide
--Specs Styleguide (?)
--Documentation Styleguide
+
+#### Git Commit Messages
+
+* Use the present tense ("Add feature" not "Added feature")
+* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Limit the first line to 72 characters or less
+* Reference issues and pull requests liberally after the first line
+* When only changing documentation, include [ci skip] in the commit title
+
+
+
+### JavaScript Styleguide
+
+more info needed here _ _ _ _
+
+### Documentation Styleguide
+
+more info needed here _ _ _ _
 
 ## Additional Notes
--Issue and Pull Request Labels
+
+#### Issue and Pull Request Labels
+
+This section lists the labels we use to help us track and manage issues and pull requests.
+
+
+#### Type of Issue and Issue State
+
+| Label name | Description |
+| --- | --- |
+| `enhancement` | Feature requests. |
+| `bug` | Confirmed bugs or reports that are very likely to be bugs. |
+| `question` | Questions more than bug reports or feature requests (e.g. how do I do X). |
+| `feedback` | General feedback more than bug reports or feature requests. |
+| `help-wanted` | The Atom core team would appreciate help from the community in resolving these issues. |
+| `beginner` | Less complex issues which would be good first issues to work on for users who want to contribute to Atom. |
+| `more-information-needed` | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
+| `documentation` | Related to documentation. |
+
+#### Pull Request Labels
+
+| Label name | Description
+| --- | --- |
+| `work-in-progress` | Pull requests which are still being worked on, more changes will follow. |
+| `needs-review` | Pull requests which need code review, and approval from maintainers or Atom core team. |
+| `under-review` | Pull requests being reviewed by maintainers or Atom core team. |
+| `requires-changes` | Pull requests which need to be updated based on review comments and then reviewed again. |
+| `needs-testing` | Pull requests which need manual testing. |
