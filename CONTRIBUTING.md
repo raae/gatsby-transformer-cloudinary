@@ -1,24 +1,24 @@
-# Contributing to our Cloudinary plugins
+# Contributing to our Cloudinary plugins 🏴‍☠️
 
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+😺👍 First off, thanks for taking the time to contribute! 😺👍
 
 The following are guidelines for contributing to the Cloudinary plugins. These are guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-## What can you contribute?
+## What can you contribute? 🏹
 
 You can contribute documentation, help fellow users, report bugs, suggest enhancements, contribute code and contribute to Cloudinary’s blog.
 
-## Why is your contribution so important to us?
+## Why is your contribution so important to us? 🎯
 
 We're hoping that our Cloudinary plugins will be easy to use. We know it's hard for us to do that without the help of users like you, so we'd love to have your contribution. Even a small contribution.
 
 In addition to a better plugin experience, your contribution might help you connect with good people and learn useful skills.
 
-## How to contribute to our Cloudinary plugins?
+## How to contribute to our Cloudinary plugins? 🔌
 
 Read the paragraphs below before you get started. If you follow our guidelines, you'll improve your chances of getting your contribution into production.
 
-#### Table Of Contents
+#### Table Of Contents 🧶
 
 [Code of Conduct](#code-of-conduct)
 
@@ -32,7 +32,7 @@ Read the paragraphs below before you get started. If you follow our guidelines, 
 
 [Additional Notes](#additional-notes)
 
-## Code of Conduct
+## Code of Conduct 💀👍
 
 This project and everyone participating in it is governed by our [Cloudinary plugins Code of Conduct](https://www.gatsbyjs.com/contributing/code-of-conduct/). By participating, you are agreeing to uphold this code.
 
@@ -44,7 +44,7 @@ To uphold a welcoming environment, we as contributors pledge to do Our best to m
 ✅ Cloudinary email adress to report unacceptable behavior _ _ _ _ _@cloudinary.com.
 
 
-## I don't want to read this whole thing, I just have a question!!!
+## I don't want to read this whole thing, I just have a question!!! 🙋‍♀️
 
 Note: Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
@@ -54,12 +54,12 @@ We have [an official message board](https://github.com/cloudinary-devs/gatsby-tr
 * [Cloudinary discord](https://community.cloudinary.com/)
 
 
-## What should I know before I get started?
+## What should I know before I get started? 🎬
 
 * Cloudinary plugins
 ✅ an into text
 
-## How Can I Contribute?
+## How Can I Contribute? 🏴‍☠️
 
 ### Reporting Bugs 🐛
 
@@ -67,7 +67,7 @@ This section guides you through submitting a bug report for our Cloudinary plugi
 
 When you are creating a bug report, please include as many details as possible.
 
-#### How Do I Submit A Good Bug Report? 🐛
+#### How Do I Submit A Good Bug Report? 🐞
 
 Bugs are tracked as [GitHub issues](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues). Create an issue and provide the following information.
 
@@ -83,13 +83,13 @@ Explain the problem and include additional details to help maintainers reproduce
 
 * **If the problem is related to performance or memory**, include a CPU profile capture with your report.
 
-### Suggesting Enhancements
+### Suggesting Enhancements 💅
 
 This section guides you through submitting an enhancement suggestion for Cloudinary plugins, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion 📝 and find related suggestions 🔎.
 
 * check if you're using the latest version of Cloudinary plugin and if you can get the desired behavior by changing your plugin's config.
 
-### How Do I Submit A Good Enhancement Suggestion?
+### How Do I Submit A Good Enhancement Suggestion? 🧚‍♀️
 
 Enhancement suggestions are tracked as GitHub issues. Create an issue and provide the following information:
 
@@ -104,25 +104,25 @@ Enhancement suggestions are tracked as GitHub issues. Create an issue and provid
 ✅ more here
 * **Specify the version of Gatsby you're using.**
 
-### Your First Code Contribution
+### Your First Code Contribution 🧙‍♀️
 
 Unsure where to begin contributing to Cloudinary plugin? You can start by looking through these [beginner](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner):
 
-### Local development
+### Local development 🐬
 
 Cloudinary plugins can be developed locally.
 more info needed here _ _ _ _
 ✅ more here
 
-### Semantic
+### Semantic release 🐳
 
 ✅ more here
 
-### Test
+### Test 🧪
 
 ✅ more here
 
-### Pull Requests
+### Pull Requests 📩
 
 The process described here has several goals:
 
@@ -133,9 +133,9 @@ The process described here has several goals:
 * Please follow the styleguides to have your contribution considered by the maintainers:
 
 
-## Styleguides
+## Styleguides 🦮
 
-#### Git Commit Messages
+#### Git Commit Messages 💌
 
 * Use the present tense ("Add feature" not "Added feature")
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
@@ -144,24 +144,24 @@ The process described here has several goals:
 * When only changing documentation, include _ _ _ _ _ in the commit title
 ✅ more here
 
-### JavaScript Styleguide
+### JavaScript Styleguide 🦮
 
 more info needed here _ _ _ _
 ✅ more here
 
-### Documentation Styleguide
+### Documentation Styleguide 🧐
 
 more info needed here _ _ _ _
 ✅ more here
 
 ## Additional Notes
 
-#### Issue and Pull Request Labels
+#### Issue and Pull Request Labels 🎟️
 
 This section lists the labels we use to help us track and manage issues and pull requests.
 
 
-#### Type of Issue and Issue State
+#### Type of Issue and Issue State 🎫
 
 | Label name | Description |
 | --- | --- |
@@ -174,7 +174,7 @@ This section lists the labels we use to help us track and manage issues and pull
 | `more-information-needed` | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
 | `documentation` | Related to documentation. |
 
-#### Pull Request Labels
+#### Pull Request Labels 🏷️
 
 | Label name | Description
 | --- | --- |
