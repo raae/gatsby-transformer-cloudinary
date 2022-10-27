@@ -2,7 +2,9 @@
 
 😺👍 First off, thanks for taking the time to contribute! 😺👍
 
-The following are guidelines for contributing to the Cloudinary plugins. These are guidelines, not rules, so do what you feel is the right thing. And feel free to propose changes to these guidelines in a pull request.
+These guidelines will help you in two ways. Help make your skill building more piraty. 💪 😺 🏴‍☠️ Help you to connect with real devs in a less uncomfy way 😺 🤝 😸
+
+These are guidelines, not rules, so do what you feel is the right thing. And please propose better text for these guidelines in a pull request.
 
 ## What can you contribute? 🏹
 
@@ -10,13 +12,11 @@ You can contribute documentation, help fellow users, report bugs, suggest enhanc
 
 ## Why is your contribution so important to us? 🎯
 
-We're hoping that our Cloudinary plugins will be easy to use. We know it's hard for us to do that without the help of users like you, even just a little a help.
-
-In addition to a better plugin experience, your contribution might help you connect with good people and learn useful skills.
+We want our Cloudinary plugins to be easy to use. That's hard for us without the help of users like you, even just a little a help is useful.
 
 ## How to contribute to our Cloudinary plugins? 🔌
 
-Read the paragraphs below before you get started. If you follow our guidelines, you'll improve your chances of getting your contribution into production.
+Read these guidelines before you get started. If you follow our guidelines, you'll improve your chances of getting your contribution into production.
 
 #### Table Of Contents 🧶
 
@@ -34,9 +34,11 @@ Read the paragraphs below before you get started. If you follow our guidelines, 
 
 ## Code of Conduct 💀👍
 
-This project and everyone participating in it is governed by our [Cloudinary plugins Code of Conduct](https://www.gatsbyjs.com/contributing/code-of-conduct/). By participating, you are agreeing to uphold this code.
+These plugins and everyone participating in them are governed by our [Cloudinary plugins Code of Conduct](https://www.gatsbyjs.com/contributing/code-of-conduct/). By participating, you are agreeing to uphold our Code of Conduct.
 
-To make people feel welcome we as contributors pledge to do our best to not harass anybody for their body size, experience level, disability, ethnicity, age, gender identity and expression, nationality, personal appearance, race, religion, or sexual identity and orientation. Please report bad behavior to our cloudinaryGal@cloudinary.com.
+### Our Pledge 🤜 🤛
+
+To make people feel welcome, we as contributors pledge to not harass anybody for their body size, skill level, disability, ethnicity, age, gender identity and expression, nationality, the way they look, race, religion, or sexual identity and orientation. Please report bad behavior to our cloudinaryGal@cloudinary.com.
 
 [Read the full code of conduct](https://www.gatsbyjs.com/contributing/code-of-conduct/).
 
@@ -45,13 +47,12 @@ To make people feel welcome we as contributors pledge to do our best to not hara
 
 ## I don't want to read this whole thing, I just have a question!!! 🙋‍♀️
 
-Note: Please don't file an issue to ask a question. You'll get faster results by using the resources below.
+Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
 We have [an official message board](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/discussions) and a [Cloudinary discord](https://community.cloudinary.com/) where the community chimes in with helpful advice if you have questions.
 
 * [Github Discussions, the official Cloudinary plugins message board](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/discussions)
 * [Cloudinary discord](https://community.cloudinary.com/)
-
 
 ## What should I know before I get started? 🎬
 
@@ -62,9 +63,9 @@ We have [an official message board](https://github.com/cloudinary-devs/gatsby-tr
 
 ### Reporting Bugs 🐛
 
-Here we guide you through submitting a bug report. If you follow these guidelines you will help maintainers understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎.
+Here we guide you in submitting a bug report. If you follow these guidelines you will help maintainers understand your report 📝, reproduce the behavior 💻 💻, and find related reports 🔎.
 
-When you are creating a bug report, please include as many details as possible.
+When you write your bug report, please write up as many details as you can.
 
 #### How Do I Submit A Good Bug Report? 🐞
 
@@ -78,25 +79,25 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Provide an example to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
-* **Include screenshots and animated GIFs** which demonstrate the problem and shows you following the described steps. If you use the keyboard while following the steps, record the GIF with the Keybinding Resolver shown. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
+* **Include screenshots and animated GIFs** which demonstrate the problem and shows you following the described steps. If you use the keyboard while following the steps, record the GIF with the Keybinding Resolver shown. You can use [Licecap](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
 
 * **If the problem is related to performance or memory**, include a CPU profile capture with your report.
 
 ### Suggesting Enhancements 💅
 
-Here we guide you through submitting an enhancement suggestion, including new features and minor improvements to existing functionality. If you follow these guidelines you will help maintainers understand your suggestion 📝.
+Here is a guide to explain your idea for a new feature or an idea for a minor improvement. If you follow these guidelines you will help maintainers understand your idea better 📝.
 
 * check if you're using the latest version of Cloudinary plugin and if you can get the desired behavior by changing your plugin's config.
 
 ### How Do I Submit A Good Enhancement Suggestion? 🧚‍♀️
 
-Enhancement suggestions are tracked as GitHub issues. Create an issue and provide the following information:
+Enhancement suggestions are tracked as GitHub issues. Create a GitHub issue and provide the following information:
 
-* **Use a clear and descriptive title** for the issue to identify the suggestion.
-* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
-* **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
-* **Describe the current behavior and explain which behavior you expected to see instead** and why.
-* **Include screenshots and animated GIFs** which help you demonstrate the steps. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
+* **Use a clear and descriptive title** for the issue to identify your suggestion.
+* **Please describe your idea step-by-step** and write up as many details as you can.
+* **Write an example to show the steps**. Include copy/pasteable snippets which you use in your example, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* **Write up the current behavior and explain which behavior you expected to see instead** and why.
+* **Include screenshots and animated GIFs** to show the steps. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows.
 * **Explain why this enhancement would be useful** to Cloudinary plugin users.
 * **List another Gatsby plugin where this enhancement exists.**
 * **Specify which version of our Cloudinary plugin you're using**. You can get the exact version by _ _ _ _ _ _.
@@ -105,7 +106,7 @@ Enhancement suggestions are tracked as GitHub issues. Create an issue and provid
 
 ### Your First Code Contribution 🧙‍♀️
 
-Unsure where to begin contributing to Cloudinary plugin? You can start by looking through these [beginner](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner):
+Unsure where to begin contributing to Cloudinary plugin? You can start by looking through these [beginner issues](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner):
 
 ### Local development 🐬
 
@@ -125,11 +126,11 @@ more info needed here _ _ _ _
 
 The process described here has several goals:
 
-* Maintain Cloudinary plugin's quality
+* Maintain our plugin's quality
 * Fix problems that are important to users
-* Engage the community in working toward the best possible Cloudinary plugins
-* Enable a sustainable system for maintainers to review contributions
-* Please follow the styleguides to have your contribution considered by the maintainers:
+* Engage the community in working toward the best possible plugins
+* Have a good system for maintainers to review contributions
+* Please follow the styleguides so your contribution is easy for the maintainers to understand:
 
 
 ## Styleguides 🦮
@@ -141,7 +142,7 @@ The process described here has several goals:
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
 * When only changing documentation, include _ _ _ _ _ in the commit title
-✅ more here
+✅ more on documentation here
 
 ### JavaScript Styleguide 🦮
 
