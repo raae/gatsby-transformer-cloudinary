@@ -1,20 +1,20 @@
-# Contributing to Gatsby Transformer Cloudinary Plugin
+# Contributing to the Gatsby Transformer Cloudinary Plugin
 
 First off, thank you for your interest in helping with the plugin ❤️
 
-Our community looks forward to your contributions 🎉
+Our community looks forward to your contribution 🎉
 
 ## How can you help?
 
-You can improve [documentation](#improving-the-documentation), help [fellow users](#i-have-a-question), report [bugs](#reporting-bugs), suggest [enhancements](#suggesting-enhancements) or [contribute code](#your-first-code-contribution).
+You can help make [documentation](#improving-the-documentation) clearer, help [fellow users](#i-have-a-question), report [bugs](#reporting-bugs), suggest [enhancements](#suggesting-enhancements) or [contribute code](#your-code-contribution).
 
 ## Why do we need your help?
 
-As a user, you know best how to make the Cloudinary Transformer Plugin better for users like you 👊
+As a user, you know best how to make the Cloudinary Transformer Plugin developer experience better for users like you 👊
 
-## Other ways to support the plugin
+## You can support the plugin in other ways
 
-If you like the plugin but don't have time to contribute, there are other ways to support the plugin and show your appreciation:
+If you like the plugin but don't have much time to spare, there are quick ways to support the plugin and show your appreciation:
 
 ⭐️ Star the GitHub repository\
 🐦 Write a tweet and mention the plugin and tag @cloudinary\
@@ -31,7 +31,7 @@ If you like the plugin but don't have time to contribute, there are other ways t
 - [I Want To Contribute](#i-want-to-contribute)
   - [Reporting Bugs](#reporting-bugs)
   - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Your First Code Contribution](#your-first-code-contribution)
+  - [Your Code Contribution](#your-code-contribution)
   - [Improving The Documentation](#improving-the-documentation)
 - [Release Process](#release-process)
 - [Additional Notes](#additional-notes)
@@ -51,12 +51,12 @@ If you like the plugin but don't have time to contribute, there are other ways t
 
 ## I Have a Question
 
-The guide for submitting a **question**. Following the guidelines helps us (maintainers and the community) to answer your question as fast as possible.
+The guide for submitting a **question**. If you follow this guide, you help our maintainers and the community to answer your question as fast as possible. Or you can answer a question if you like, that would be suuuper helpful. 🥳
 
 ### Before asking a question
 
 Read the documentation. Both for the [plugin](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/blob/main/README.md) and [Cloudinary in general](https://cloudinary.com/documentation).
-Look through existing questions both on the plugin's discussion board](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/discussions) and in the [Cloudinary Community](https://community.cloudinary.com/).
+Read the existing questions, both on the plugin's [discussion board](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/discussions) and in the [Cloudinary Community](https://community.cloudinary.com/).
 
 #### How Do I Submit a Good Question?
 
@@ -71,7 +71,7 @@ Look through existing questions both on the plugin's discussion board](https://g
 
 ### Reporting Bugs
 
-The guide for submitting a **bug report**. Following the guidelines helps us (maintainers and the community) to understand the problem and come up with a fix.
+The guide for submitting a **bug report**.  If you follow this guide, you help our maintainers and the community to understand the problem and come up with a fix.
 
 #### Before Submitting a Bug Report
 
@@ -98,7 +98,7 @@ We track bug reports as [Github issues](https://github.com/cloudinary-devs/issue
 
 ### Suggesting Enhancements
 
-The guide for submitting an enhancement suggestion, both **new feature and minor improvement ideas**. Following the guidelines helps us (maintainers and the community) to understand your suggestion and follow up on it.
+The guide for submitting an enhancement suggestion, both **new feature and minor improvement ideas**.  If you follow this guide, you help our maintainers and the community to understand your suggestion and follow up on it.
 
 #### Before Submitting an Enhancement
 
@@ -119,7 +119,7 @@ We track enhancement ideas as [Github issues](https://github.com/cloudinary-devs
 
 ### Your Code Contribution
 
-The guide for submitting your **code contribution**. Following the guidelines increase the chance of getting your code released.
+The guide for submitting your **code contribution**. Following the guide increase the chance of getting your code released.
 
 If you are new to open-source code contributions, start with these links:
 
@@ -133,7 +133,7 @@ Unsure where you can best start contributing code? Look through these ["good fir
 - Add a comment to an existing [issue](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues) indicating your interest,
 - or create a new [issue](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/issues/new) describing what you'd like to contribute.
 
-In both cases, outline your action plan and wait for feedback before spending too much time coding your solution in case your action plan is not within the scope/goals of this plugin.
+In both cases, outline your action plan and wait for feedback before spending time coding, because we might NOT give you a start signal.
 
 #### Fork, Clone, and Install
 
@@ -196,9 +196,9 @@ There are two main documentation files:
 - The project [README.md](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/blob/main/README.md) = "How to use the plugin"
 - The project [CONTRIBUTING.md](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/blob/main/CONTRIBUTING.md) = "How to contribute to the plugin" = this text
 
-Improvements to both are very much encouraged 🙏
+Improvements to both are very much appreciated 🙏
 
-You may follow the guide for [Your First Code Contribution](#your-first-code-contribution) or make changes directly from Github.
+You may follow the guide for [Your Code Contribution](#your-code-contribution) or make changes directly from Github.
 
 - [Edit the README.md](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/blob/main/README.md) directly on Github
 - [Edit the CONTRIBUTING.md](https://github.com/cloudinary-devs/gatsby-transformer-cloudinary/edit/main/CONTRIBUTING.md) (this text) directly on Github
